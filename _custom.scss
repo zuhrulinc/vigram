@@ -1,0 +1,94 @@
+.btn {
+    @apply bg-blue-600 text-white rounded py-2 px-4 leading-none;
+
+    &:hover {
+        @apply bg-blue-700;
+    }
+}
+
+.nav-custom-link {
+    max-height: auto;
+    visibility: visible;
+}
+
+.nav-download {
+
+}
+
+.transactions {
+
+}
+
+.layanan_table {
+
+}
+
+.jumlah_table {
+
+}
+
+.date_table {
+
+}
+
+.pembayaran_table {
+
+}
+
+
+@media (max-width: 1020px) {
+    .nav-custom-link {
+        max-height: 0px;
+        visibility: hidden;
+    }
+
+    .nav-download {
+        visibility: hidden;
+        max-height: 0rem;
+    }
+   
+}
+
+
+@media (max-width: 620px) {
+    
+    .pembayaran_table {
+        display: none;
+    }
+
+    
+    
+}
+
+@media (max-width: 535px) {
+        
+    .date_table {
+        display: none;
+    }
+
+   
+}
+
+
+@media (max-width: 433px) {
+        
+    .jumlah_table {
+        display: none;
+    }
+
+   
+}
+
+
+@media (max-width: 308px) {
+        
+    .layanan_table {
+        display: none;
+    }
+
+   
+}
+
+
+
+
