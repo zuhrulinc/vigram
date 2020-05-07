@@ -1,11 +1,9 @@
-import Siema from 'siema';
 const siema = new Siema();
 var btnNext = document.querySelectorAll("#next");
 var btnPrev = document.querySelectorAll("#prev");
 var btnOrder = document.querySelectorAll("#order_sekarang");
 var counter = 0;
 var counterBtnOrder = 0;
-var action = "https://api.whatsapp.com/send?phone=6285879830690&text=Kak%20saya%20ingin%20order%20apakah%20stok%20masih%20ada?";
 
 while (counterBtnOrder < btnOrder.length) {
     btnOrder[counterBtnOrder].style.cursor = 'pointer';
