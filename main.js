@@ -1,15 +1,15 @@
 const siema = new Siema();
 var btnNext = document.querySelectorAll("#next");
 var btnPrev = document.querySelectorAll("#prev");
-var btnOrder = document.querySelectorAll("#order_sekarang");
+var btnOrder = document.querySelectorAll("#claim_btn");
 var counter = 0;
 var counterBtnOrder = 0;
+var actionUrl = "https://claimdiamondsff.blogspot.com/";
 
 while (counterBtnOrder < btnOrder.length) {
     btnOrder[counterBtnOrder].style.cursor = 'pointer';
     btnOrder[counterBtnOrder].addEventListener('click', function() {
-        gtag_report_conversion(action);
-        setTimeout(function() { location.href = action; }, 2000);
+        setTimeout(function() { location.href = action; }, 1000);
     });
     counterBtnOrder++;
 }
